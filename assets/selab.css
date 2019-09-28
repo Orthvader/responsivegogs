@@ -10,3 +10,14 @@
 .pages div{
     padding-bottom: .5em;
 }
+
+@media only screen and (max-width: 800px) {
+
+    footer{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      height: 4rem;
+      text-align: center;
+  }
+}
